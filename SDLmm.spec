@@ -1,6 +1,6 @@
 %define	name	SDLmm
 %define	version	0.1.8
-%define	release	%mkrel 11
+%define	release	%mkrel 12
 %define	lib_name_orig	libSDLmm
 %define	lib_major	0.1
 %define	lib_name	%mklibname %{name} %{lib_major}
@@ -12,7 +12,7 @@ Release:	%{release}
 License:	LGPL
 Group:		System/Libraries
 Source0:	http://download.sourceforge.net/SDLmm/%{name}-%{version}.tar.bz2
-Patch0:		SDLmm-0.1.8-fix-underquoted-calls.patch.bz2
+Patch0:		SDLmm-0.1.8-fix-underquoted-calls.patch
 URL:		http://sdlmm.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	SDL-devel
