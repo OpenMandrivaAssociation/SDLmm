@@ -14,6 +14,7 @@ Group:		System/Libraries
 Source0:	http://download.sourceforge.net/SDLmm/%{name}-%{version}.tar.bz2
 Patch0:		SDLmm-0.1.8-fix-underquoted-calls.patch
 URL:		http://sdlmm.sourceforge.net/
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	SDL-devel
 
 %description
