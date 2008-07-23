@@ -1,6 +1,6 @@
 %define	name	SDLmm
 %define	version	0.1.8
-%define	release	%mkrel 12
+%define	release	%mkrel 14
 %define	lib_name_orig	libSDLmm
 %define	lib_major	0.1
 %define	lib_name	%mklibname %{name} %{lib_major}
