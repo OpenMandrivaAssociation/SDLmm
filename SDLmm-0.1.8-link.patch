@@ -1,0 +1,21 @@
+--- src/Makefile.am.link	2010-02-03 15:36:07.000000000 +0100
++++ src/Makefile.am	2010-02-03 15:36:27.000000000 +0100
+@@ -13,6 +13,7 @@
+ libSDLmm_la_LDFLAGS = 		\
+         -release $(LT_RELEASE)	\
+ 	-version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE)
++libSDLmm_la_LIBADD = -lstdc++
+ 
+ # The directory where the include files will be installed
+ libSDLmmincludedir = $(includedir)/SDLmm/
+--- src/Makefile.in.link	2010-02-03 15:36:38.000000000 +0100
++++ src/Makefile.in	2010-02-03 15:36:47.000000000 +0100
+@@ -117,7 +117,7 @@
+ CPPFLAGS = @CPPFLAGS@
+ LDFLAGS = @LDFLAGS@
+ LIBS = @LIBS@
+-libSDLmm_la_LIBADD = 
++libSDLmm_la_LIBADD = -lstdc++
+ libSDLmm_la_OBJECTS =  sdlmm_global.lo sdlmm_basesurface.lo \
+ sdlmm_surface.lo sdlmm_display.lo sdlmm_pixelformat.lo sdlmm_srect.lo \
+ sdlmm_event.lo sdlmm_audio.lo sdlmm_timer.lo sdlmm_joystick.lo \
