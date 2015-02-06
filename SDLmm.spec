@@ -6,7 +6,7 @@
 Name:		SDLmm
 Summary:	A C++ Wrapper for the Simple DirectMedia Layer
 Version:	0.1.8
-Release:	17
+Release:	18
 License:	LGPL
 Group:		System/Libraries
 Source0:	http://download.sourceforge.net/SDLmm/%{name}-%{version}.tar.bz2
