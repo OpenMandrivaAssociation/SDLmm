@@ -13,6 +13,11 @@ Source0:	http://download.sourceforge.net/SDLmm/%{name}-%{version}.tar.bz2
 Patch0:		SDLmm-0.1.8-fix-underquoted-calls.patch
 Patch1:		SDLmm-0.1.8-link.patch
 URL:		https://sdlmm.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(sdl)
 
 %description
